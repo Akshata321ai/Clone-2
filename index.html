@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Tesla Clone</title>
+</head>
+<body>
+    <div class="nav-bar" id="nav-bar">
+        <nav>
+            <img src="tesla-logo.png" class="logo">
+            <ul>
+                <li><a href="https://www.tesla.com/models" location="new tab" id="ModelS">Model S</a></li>
+                <li><a href="https://www.tesla.com/model3" id="Model3">Model 3</a></li>
+                <li><a href="https://www.tesla.com/modelx" id="ModelX">Model X</a></li>
+                <li><a href="https://www.tesla.com/ModelY" id="">Model Y</a></li>
+            </ul>
+            <a href="https://www.tesla.com/support" class="button-1"><i class="fa-regular fa-circle-question"></i></a>
+            <a href="#" class="button-1"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://auth.tesla.com/en_us/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email%20phone&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US" class="button-1"><i class="fa-solid fa-user"></i></a>        
+        </nav>
+        <div class="info">
+            <div>
+                <h2>1.9s</h2>
+                <p>60mph</p>
+            </div>
+            <div>
+                <h2>Boost</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2>396 mi</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line">
+                <div>
+                    <h1>Model S</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var header=document.getElementById("nav-bar");
+        var ms=document.getElementById("ModelS");
+        var m3=document.getElementById("Model3");
+        var mx=document.getElementById("ModelX");
+        var my=document.getElementById("ModelY");
+
+        ms.oneclick = function(){
+            header.style.backgroundImage =  url("tesla Img1.webp");
+        }
+        m3.oneclick = function(){
+            header.style.backgroundImage=URL("img2.jpeg");
+        }
+        mx.oneclick = function(){
+            header.style.backgroundImage =  "url(img3.jpeg)";
+        }
+        my.oneclick = function(){
+            header.style.backgroundImage =  "url(img4.jpeg)";
+        }
+    </script>
+  
+            
+            
+   
+    
+</body>
+</html>

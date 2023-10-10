@@ -1,0 +1,85 @@
+<div class="A1">Hi<i class="fal fa-question-circle"></i></div>
+        <div class="A1">Hi<i class="fa-thin fa-globe"></i></div>
+        <div class="A1">Hi<i class="fa-regular fa-user"></i></div>
+
+
+
+        <div class="head-div-2">
+                <div class="A1"><i class="fa-regular fa-circle-question"></i></div>
+                <div class="A1"><i class="fa-solid fa-globe" style="color: #28292a;"></i></div>
+                <div class="A1"><i class="fa-regular fa-user"></i></div>
+              </div>
+            </div>
+            <div class="nav-panel-2">
+              <h1>Model 3</h1>
+              <p id="t1">Starting from $29740</p>
+              <p id="t2">After federal tax credit&est.Gas saving</p>
+            </div>
+            <div class="nav-panel-3">
+              <div class="b1"><button>Order Now</button></div>
+              <div class="b2"><button>Demo Drive</button></div>
+            </div>
+          </header>
+          
+
+
+        }
+        .nav-panel-2{
+            height: 100px;
+            width: 100%;
+            display: block;
+            color: black;
+            align-items: center;
+            justify-content: center;
+            margin-left: 600px;
+            margin-top: 150px;
+            margin-bottom: 10px;
+        }
+        .nav-panel-2 h1{
+            font-size: 70px;
+            font-weight: 400;
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .nav-panel-2 p{
+            font-size: medium;
+            font-weight: 600;
+        
+        }
+        #t1{
+            margin-left: 70px;
+            margin-bottom: 10px;
+            font-size: medium;
+        }
+        #t2{
+            margin-right: 20px;
+        }
+        .nav-panel-3{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 150px;
+        }
+        .b1{
+            background-color: antiquewhite;
+            color: black;
+            margin-left: 5px;
+        }
+        .b2{
+            background-color: antiquewhite;
+            color: black;
+            margin-left: 20px;
+        }
+        .img3{
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            background-size: cover;
+        }
+        
+        
+        

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    height: 100vh;
+    width: 100%;
+    background-image: url("tesla lmg1.webp");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+nav{
+    height: 140px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 33px;
+    font-display: 50px;
+
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 34px;
+    margin-right: 34px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #141313;
+    font-size: x-large;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    border-radius: 4px;
+    background-color: rgb(246, 245, 244);
+    box-shadow: 10px 10px 20px;
+}
+.button-1 i{
+    text-decoration: none;
+    color: #0e0e0e;
+    margin-right: 30px;
+    font-size: 25px;
+    margin-bottom: 35px;
+
+}
+.button-1 i:hover{
+    border-radius: 4px;
+    background-color: aliceblue;
+    font-weight: 700;
+}
+.info{
+    width: 100%;
+    padding:0 7%;
+    display: flex;
+    align-items: center;
+    color: #0e0e0e;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+.info div{
+    margin: 0 20px;
+    
+}
+.info div h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.info div p{
+    font-size: larger;
+    font-weight: 600;
+}
+.line{
+    height: 100px;
+    width: 800px;
+    margin-left: 50px;
+    font-size: xx-large;
+    box-shadow: 0 5px 5px ;
+    margin-bottom: 40;
+}
+.line h1{
+    margin-left: 500px;
+    font-size: 45px;
+    margin-top: 19px;
+    size: 45px;
+    font-size: 50px;
+}
